@@ -11,12 +11,11 @@ turtle.setup(width = swidth + 50,height = sheight + 50)
 turtle.screensize(swidth,sheight)
 turtle.penup()
 turtle.speed(5)
-
-inStr = getString()
+inStr=getString()
 
 for ch in inStr :
 
-    tX,tY,tAngle,txtSize = getXYAS(swidth,sehight)
+    tX,tY,tAngle,txtSize = getXYAS(swidth,sheight)
     r,g,b = getRGB()
 
     turtle.goto(tX,tY)
